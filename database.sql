@@ -38,7 +38,8 @@ CREATE TABLE "coach_bio"
      "certifications"     VARCHAR(500), 
      "personal_interests" VARCHAR(500), 
      "coach_bio"          VARCHAR(500), 
-     "coach_photo"        VARCHAR(75) 
+     "coach_photo"        VARCHAR(75),
+     "coach_phone"        BIGINT
   );
 
 CREATE TABLE "calendar" 
